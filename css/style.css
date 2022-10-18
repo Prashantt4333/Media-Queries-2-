@@ -1,0 +1,55 @@
+.common{
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width:0px) and (max-width:575px) {
+    .xs{
+        
+        background-color: red;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .sm{
+        border-radius: 200px;
+        background-color: blue;
+    }
+    .d-sm-none{
+        display: none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .md{
+       height: 500px;
+       width: 500px;
+       background: purple;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .lg{
+       height: 500px;
+       width: 100px;
+       background:#000;
+    }
+    .d-lg-none{
+        display: none;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .xl{
+       height: 600px;
+       width: 600px;
+       background:pink;
+       border-radius: 50%;
+    }
+}
+@media only screen and (min-width:1400px)  {
+    .xxl{
+       height: 100px;
+       width: 100%;
+       background:violet;
+    }
+    .d-xxl-none{
+        display: none;
+    }
+}
